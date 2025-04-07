@@ -1,0 +1,177 @@
+*{
+font-family: sans-serif;
+font-size: 16px;
+}
+
+body{
+    background-color: black;
+}
+
+
+.container1{
+
+    height: 100vh;
+    display:flex;
+    background-color: hsl(271, 76%, 53%);
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 h1{
+    font-size: 7rem;
+}
+
+.container2{
+
+    height: 100vh;
+    display:flex;
+    background-color: hsl(293, 79%, 54%);
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 h2{
+    font-size: 7rem;
+}
+
+.container3{
+
+    height: 100vh;
+    display:flex;
+    background-color: hsl(313, 79%, 54%);
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 h2{
+    font-size: 7rem;
+}
+
+.container4{
+
+    height: 100vh;
+    display:flex;
+    background-color: hsl(332, 79%, 54%);
+    justify-content: center;
+    align-items: center;
+}
+
+.container4 h2{
+    font-size: 7rem;
+}
+
+
+#cuadroScroll {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    z-index: 9999;
+    border-radius: 10px;
+  }
+
+
+#cuadroMoviendo{
+    position:fixed;
+    width:60px;
+    height: 60px;
+    background-color: #ff0000;
+    /* top:900px; */
+    left:40px;
+    bottom:50px;
+    border-radius: 10px;
+    z-index: 10000;
+}
+
+
+#menuBtn {
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    font-size: 2rem;
+    color: white;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+#sideMenu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 10000;
+}
+
+#sideMenu button {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#sideMenu button:hover {
+    background: white;
+    color: black;
+}
+
+#parallaxBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .shape {
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.3;
+    mix-blend-mode: screen; /* Para que se mezclen visualmente */
+    will-change: transform;
+  }
+  
+  .square1 {
+    width: 200px;
+    height: 200px;
+    background: #ff00cc;
+    top: 20%;
+    left: 10%;
+  }
+  
+  .square2 {
+    width: 300px;
+    height: 300px;
+    background: #00ffee;
+    top: 60%;
+    left: 70%;
+  }
+  
+  .circle1 {
+    width: 250px;
+    height: 250px;
+    background: #ffff00;
+    border-radius: 50%;
+    top: 40%;
+    left: 40%;
+  }
+  
+
+
+
+
+  
